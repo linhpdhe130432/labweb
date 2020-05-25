@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 12, 2020, 4:51:15 PM
+    Author     : DuongDT
+*/
+
+td {
+    vertical-align: top;
+}
+
+
+.total {
+    padding-top: 10px;
+}
+
+.question {
+    width: 350px;
+    padding-right: 10px;
+}
+
+.question-list {
+    padding-top: 20px;
+}
+
+.question-list tr {
+    margin-bottom: 5px;
+}
+
+.table-question {
+    border-spacing: 15px 15px;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-top: 40px;
+}
+
+.pagination a {
+    color:#433dff;
+}
+
+.pagination li {
+    margin-right: 8px;
+}
+
+.pagination li a {
+    text-decoration: none;
+}
+
+.pagination .active {
+    text-decoration: underline;
+    font-weight: 600;
+    pointer-events: none;
+    cursor: default;
+}

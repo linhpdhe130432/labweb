@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 9, 2020, 10:34:04 PM
+    Author     : DuongDT
+*/
+
+.header {
+    padding-top: 15px;
+    padding-bottom: 18px;
+    padding-left: 80px;
+    width: 100%;
+    background-image:  url("../image/menu_bg.gif");
+    background-repeat: no-repeat;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    text-decoration: none;
+    font-weight: bold;
+    color: #6b5e4f;
+    padding-right: 35px;
+}

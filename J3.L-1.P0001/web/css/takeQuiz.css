@@ -1,0 +1,37 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 15, 2020, 6:38:42 PM
+    Author     : DuongDT
+*/
+
+
+
+.welcome {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.user-name {
+    margin-left: 5px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.input-form {
+    padding-top: 30px;
+}
+
+.text {
+    width: 100px;
+}
+.submit {
+    width: 50px;
+    margin-left: 200px;
+}
