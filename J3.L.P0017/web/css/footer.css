@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 19, 2020, 12:53:47 AM
+    Author     : DuongDT
+*/
+
+.footer {
+    height: 90px;
+    background-color: #303030;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.display-content {
+    max-width: 990px;
+    margin: 0 auto;
+    padding-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-adver {
+    max-width: 400px;
+    padding-left: 30px;
+    
+}
+
+.footer-adver a {
+    color: white;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: row;
+}
+.number-access {
+    background-color: white;
+    height: 17px;
+    width: 15px;
+    border-radius: 4px;
+    margin-right: 3px;
+    text-align: center;
+    font-weight: 700;
+}
+

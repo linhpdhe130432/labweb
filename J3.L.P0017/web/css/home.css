@@ -1,0 +1,91 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 19, 2020, 1:05:06 AM
+    Author     : DuongDT
+*/
+
+
+.intro-image {
+    width: 100%;
+}
+
+.intro i {
+    font-size: 15px;
+}
+.about-me {
+    padding-top: 30px;
+}
+
+.about-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+
+.about-me p {
+    line-height: 23px;
+}
+
+.view-gallery {
+    width: 100%;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.gallery-card {
+    padding-right: 20px;
+    width: 220px;
+}
+
+.image-card {
+    height: 160px;
+    width: 220px;
+}
+.content-card {
+    padding-top: 5px;
+}
+.content-card p {
+    line-height: 23px;
+}
+.view-gallery a {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    font-size: 22px;
+    color: white;
+}
+
+.view-gallery a:hover {
+    text-decoration: none;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-top: 40px;
+}
+
+.pagination a {
+    color: white;
+}
+
+.pagination li {
+    margin-right: 8px;
+}
+
+.pagination li a {
+    text-decoration: none;
+}
+
+.pagination .active {
+    text-decoration: underline;
+    font-weight: 600;
+    pointer-events: none;
+    cursor: default;
+}
+

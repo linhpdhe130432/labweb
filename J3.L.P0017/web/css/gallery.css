@@ -1,0 +1,128 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 23, 2020, 10:48:36 PM
+    Author     : DuongDT
+*/
+
+
+.main-content {
+    min-height: 1000px;
+}
+.main-content h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-weight: 100;
+}
+
+.slide-show {
+    width: 100%;
+    position: relative;
+    height: 460px;
+}
+
+.image-slide {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+
+.display-image {
+    opacity: 1;
+}
+
+.hiden-image {
+    opacity: 0;
+}
+
+.image-slide img {
+    width: 700px;
+    object-fit: cover;
+}
+
+.detail-gallery {
+    margin-top: 75px;
+    display: grid;
+    grid-template-columns: 178px 178px 178px 178px;
+}
+
+
+.wrap-card {
+    margin-top: 10px;
+    margin-right: 14px;
+    position: relative;
+    height: 160px;
+    width: 165px;
+    background-color: white;
+    border-radius: 5px;
+}
+.shadow {
+    position: absolute;
+    bottom: 0;
+    left: 25px;
+    height: 20px;
+    width: 120px;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px rgb(0,0,0);
+
+}
+.image-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image-small {
+    width: 142px;
+    height: 94px;
+    position: absolute;
+    top: 30px;
+    left: 12px;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-top: 40px;
+    padding-bottom: 90px;
+}
+
+.pagination a {
+    color: white;
+}
+
+.pagination li {
+    margin-right: 8px;
+}
+
+.pagination li a {
+    text-decoration: none;
+}
+
+.pagination .active {
+    text-decoration: underline;
+    font-weight: 600;
+    pointer-events: none;
+    cursor: default;
+}
+
+.noti p {
+    font-size: 18px;
+}
+
+.noti a {
+    color: white;
+    font-size: 16px;
+}
+

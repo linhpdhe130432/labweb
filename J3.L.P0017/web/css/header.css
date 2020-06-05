@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 19, 2020, 12:49:06 AM
+    Author     : DuongDT
+*/
+.navi {
+    background-color: #303030;
+    height: 30px;
+}
+
+.navi-bar {
+    display: flex;
+    flex-direction: row;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.navi-text {
+    color: white;
+    text-decoration: none;
+}
+
+.navi-item {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    border-left: solid 0.8px #5a5a5a;
+    
+}
+
+.title-header {
+    background-color:  #722f31;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    padding-top: 30px;  
+    
+}
+
+.title-content {
+    max-width: 940px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.title-logo {
+    height: 70px;
+    width: 80px;
+    background-image: url("../image/logo.PNG");
+    background-size: cover;
+}
+
+.title-web {
+    padding-left: 20px;
+    padding-bottom: 33px;
+}
+
+.name-web {
+    font-size: 47px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+.name-web a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.active-page{
+    font-weight: bold;
+}

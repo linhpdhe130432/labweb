@@ -1,0 +1,68 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 19, 2020, 12:58:38 AM
+    Author     : DuongDT
+*/
+
+.adver {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+}
+
+
+.adver .title-adver {
+    width: 100%;
+    background-color: #303030;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+.adver .share-adver {
+    width: 100%;
+    background-color: #8b3c3f;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.share-row {
+    display: flex;
+    flex-direction: row;
+    height: 22px;
+    padding-top: 5px;
+}
+
+.logo-image {
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+    background-size: cover;
+}
+
+.share-row p {
+    margin-top: -2px;
+    text-decoration: underline;
+    color: white;
+}
+
+.fb {
+    background-image: url("../image/fb.png");
+}
+
+.tw {
+    background-image: url("../image/twitter.png");
+}
+
+.gg {
+    background-image: url("../image/google.png");
+}
